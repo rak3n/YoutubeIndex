@@ -8,6 +8,8 @@ I have completed the assignment with the following features included:
 * Dockerized the project.
 
 # Start The Server:
+- Clone the repository and cd to the project directory.
+- then install all the dependecies, using <code>npm install</code> 
 - Simply run <code>npm start</code> to initiate the server, <code>localhost:8080</code> renders a html on server up.
 <br></br>
 # API Endpoints:
