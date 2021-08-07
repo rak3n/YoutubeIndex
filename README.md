@@ -59,7 +59,7 @@ YT_SEARCH_QUERY='football official'(SEARCH_QUERRY_TO MAKE)
 ```
 <br></br>
 # Database Setup:
-- I used remote Mongo DB from MongoDb Inc. to get the project done fast, with setup followed inside there docs itself, then put the Credentials from the remote inside .env file, to initiate the process. For first run, it would take ```GOOGLE_API_REFRESH_INTERVAL``` amount of time to popultae the db initially.
+- I used remote Mongo DB from MongoDb Inc. to get the project done fast, with setup followed inside there docs itself, then put the Credentials from the remote inside .env file, to initiate the process. For first run, it would take ```GOOGLE_API_REFRESH_INTERVAL``` amount of time in seconds to populate the db initially.
 <br></br>
 # Future Scope:
 - Although I have tried to keep the calls to db as minimal as possible making it a optimized and scalable, but can even be even be boosted for performance by using a caching like DB locally to cache results instead for making calls to mongo instance all the time for similar responses if data hasn't change after previous refresh.
